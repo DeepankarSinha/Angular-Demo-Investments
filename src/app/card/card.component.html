@@ -1,0 +1,57 @@
+<div class="card-rectangle">
+    <!-- Transparent banner on top right -->
+    <div [ngClass]="{'transparent-rect': !investmentCompleted, 'transparent-rect-success': investmentCompleted}">
+        <p>{{status}}</p>
+    </div>
+
+    <!-- Info popup icon on top left -->
+    <app-infocard class="info-icon"></app-infocard>
+
+    <!-- Main card image -->
+    <img src="/assets/img/tiomothy-swope-zwe--GYIZtc-unsplash.png" srcset="/assets/img/tiomothy-swope-zwe--GYIZtc-unsplash@2x.png 2x,
+             /assets/img/tiomothy-swope-zwe--GYIZtc-unsplash@3x.png 3x" class="tiomothy-swope-zwe--GYIZtc-unsplash">
+
+    <!-- Card title -->
+    <div class="Schuhmeierplatz-13">
+        <p>{{title}}</p>
+    </div>
+
+    <!-- location -->
+    <div>
+        <span><img src="/assets/img/noun_Location_2387003.svg" class="noun_Location_2387003"></span>
+        <span class="location-title">{{location}}</span>
+    </div>
+
+    <!-- Custom progress bar -->
+    <app-progressbar [progress]="progress"></app-progressbar>
+
+    <!-- Some investment number stuffs -->
+    <div class="investment-block">
+        <div *ngIf="currentInvestedAmount < targetInvestmentAmount">
+            <span>{{currentInvestedAmount | currency:'EUR' }}</span> of
+            <span class="bold-text">{{targetInvestmentAmount | currency:'EUR'}}</span>
+        </div>
+
+        <!-- If target investment is reached -->
+        <div class="completed-investment-block" *ngIf="currentInvestedAmount >= targetInvestmentAmount">
+            <span>Invested Amount : </span>
+            <span class="currency">{{targetInvestmentAmount | currency:'EUR'}}</span>
+        </div>
+
+    </div>
+
+    <!-- start date end date -->
+    <div class="start-end-block">
+        <span class="start">Start Date :</span> 
+        <span class="start-date">{{startDate | date:'shortDate'}}</span>
+        <span class="end">End Date :</span>
+        <span class="end-date">{{endDate | date:'shortDate'}}</span>
+    </div>
+
+    <!-- Description -->
+    <div class="some-items-block">
+        <p>{{description}}</p>
+    </div>
+
+    <!-- Got bored, ignored all the rest -->
+</div>

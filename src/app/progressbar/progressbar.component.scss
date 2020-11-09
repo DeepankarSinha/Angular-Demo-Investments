@@ -1,0 +1,14 @@
+/* Go back! Nothing special to look here. Credits goes to w3school. */
+.progressbar {
+    background-color: rgb(214, 214, 214);
+    border-radius: 13px;
+    padding: 1px;
+    margin:24.3px 20px 0 20px;
+}
+
+.progressbar>.path {
+    background-image: linear-gradient(to right, rgb(2, 71, 175), rgb(115, 215, 255));
+    /* Adjust with JavaScript */
+    height: 4px;
+    border-radius: 10px;
+}

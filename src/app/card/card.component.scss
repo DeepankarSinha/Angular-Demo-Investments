@@ -1,0 +1,204 @@
+/* Go back! Nothing special to look here. Credits goes to w3school. */
+
+.card-rectangle {
+    width: 334px;
+    height: 555px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    border: solid 1px #e8e8e8;
+    position: relative;
+}
+
+.transparent-rect {
+    width: 157px;
+    height: 37px;
+    opacity: 0.57;
+    border-radius: 10px 0 10px 0;
+    background-color: #349fe2;
+    position: absolute;
+}
+
+.transparent-rect-success {
+    width: 157px;
+    height: 37px;
+    opacity: 0.57;
+    border-radius: 10px 0 10px 0;
+    background-color: #009908;
+    position: absolute;
+}
+
+.transparent-rect > p,.transparent-rect-success > p {
+    width: 115px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 23px;
+    margin-top: 11px;
+}
+
+.tiomothy-swope-zwe--GYIZtc-unsplash {
+    width: 334px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.Schuhmeierplatz-13 {
+    width: 142px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.noun_Location_2387003 {
+    width: 9.6px;
+    height: 11.4px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-top: 14.5px;
+    margin-bottom: -1px;
+}
+
+.location-title {
+    width: 259px;
+    height: 12px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #556570;
+    margin-left: 8.3px;
+}
+
+.investment-block {
+    margin: 14px 0 0 20px;
+}
+
+.bold-text {
+    font-weight: bold ;
+}
+
+.start-end-block {
+    margin: 17px 0 0 20px;
+}
+
+.start-end-block>.start {
+    width: 66px;
+    height: 13px;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #c5c8c9;
+}
+
+.start-end-block>.end {
+    width: 66px;
+    height: 13px;
+    margin: 0 0 0 20px;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #c5c8c9;
+}
+
+.start-end-block>.start-date {
+    width: 62px;
+    height: 13px;
+    margin: 0 0 0 11px;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #303030;
+}
+
+.start-end-block>.end-date {
+    width: 62px;
+    height: 13px;
+    margin: 0 0 0 11px;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #303030;
+}
+
+.info-icon {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.some-items-block {
+    margin: 25px 22px 25px 23px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.completed-investment-block {
+    width: 218px;
+    height: 20px;
+    margin: 9px 29px 0;
+    padding: 9px 20px 9px 21px;
+    border-radius: 10px;
+    background-color: #f5f8f7;
+}
+
+.completed-investment-block>.currency {
+    width: 64px;
+    height: 16px;
+    margin: 0 0 0 7px;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #089c7a;
+}

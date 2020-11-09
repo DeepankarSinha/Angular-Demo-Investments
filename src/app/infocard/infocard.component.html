@@ -1,0 +1,9 @@
+<div>
+    <img src="assets/img/information-button.svg" (mouseover)="showCard = true" (mouseout)="showCard = false">
+
+    <div *ngIf="showCard" class="popup-card">
+        <div *ngFor="let item of items">
+            <p>{{item}}</p>
+        </div>
+    </div>
+</div>

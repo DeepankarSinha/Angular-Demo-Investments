@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CardComponent } from './card/card.component';
+import { ProgressbarComponent } from './progressbar/progressbar.component';
+import { InfocardComponent } from './infocard/infocard.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CardComponent,
+    ProgressbarComponent,
+    InfocardComponent
   ],
   imports: [
     BrowserModule,
